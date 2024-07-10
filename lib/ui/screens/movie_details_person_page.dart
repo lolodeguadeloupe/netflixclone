@@ -58,14 +58,14 @@ class _MovieDetailsPersonPageState extends State<MovieDetailsPersonPage> {
             Center(
               child: CastingCard(person: widget.person,),
             ),
-            SizedBox(height: 30,),
+            const SizedBox(height: 30,),
             MovieCategory(
               imageHeight: 320,
               imageWidth: 220,
-              label: 'Connu pour les films suivants',
+              label: 'Connu(e) pour les films suivants',
               movieList: listMovies,
               callback: getMovieData,
-            )
+            ),
           ],
         )
     );

@@ -17,11 +17,14 @@ class DataRepository with ChangeNotifier {
   final List<Movie> _animationMovies = [];
   int _animationMoviesPageIndex = 1;
 
+
+
   //getters
   List<Movie> get popularMovieList => _popularMovieList;
   List<Movie> get nowPlaying => _nowPlaying;
   List<Movie> get upcomingMovies => _upcomingMovies;
   List<Movie> get animationMovies => _animationMovies;
+
 
   Future<void> getPopularMovies() async {
     try {

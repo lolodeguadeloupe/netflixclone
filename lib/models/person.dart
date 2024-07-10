@@ -12,6 +12,7 @@ class Person {
 
   Person copyWith({
     String? name,
+    String? biography,
     String? characterName,
     String? imageURL,
     int? id,

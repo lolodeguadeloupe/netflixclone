@@ -147,6 +147,7 @@ class _MovieDetailsPageState extends State<MovieDetailsPage> {
                               posterPath: newMovie!.images![index]);
                         }),
                   ),
+                  SizedBox(height: 50,)
                 ],
               ),
             ),

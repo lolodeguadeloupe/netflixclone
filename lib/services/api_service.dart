@@ -10,7 +10,6 @@ class APIService {
   Future<Response> getData(String path, {Map<String, dynamic>? params}) async {
     // on construit l'url
     String _url = api.baseURL + path;
-
     // on construit les paramètres de la requete
     // ces paramètres seront presents dans chaque requetes
     Map<String, dynamic> query = {
